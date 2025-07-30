@@ -3,3 +3,8 @@ logs/
 __pycache__/
 .docker/
 *.db
+# Ignore everything in dags
+dags/*
+
+# Except the petrol_price_pipeline folder
+!dags/petrol_price_pipeline/
